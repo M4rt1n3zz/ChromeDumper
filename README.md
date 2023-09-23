@@ -237,7 +237,13 @@ def main():
 
 By utilizing the `main` function with the appropriate command-line arguments, red teamers can easily extract specific data from the Chrome browser in their preferred format. The function streamlines the extraction process, making it efficient and flexible for various red team engagements, allowing valuable information to be obtained and analyzed for security assessment purposes.
 
-## Functionality Overview
+## Instalation
+
+The ChromeDumper.py can be download by cloning the repo.
+
+```
+$ git clone https://github.com/M4rt1n3zz/ChromeDumper.git
+```
 
 #### Dependency Requirements
 
@@ -257,6 +263,8 @@ pip install -r requirements.txt
 ```
 
 Once you have installed the necessary dependencies, you'll be ready to use the "Chrome Dumper" tool effectively.
+
+## Usage
 
 #### Module Selection
 
