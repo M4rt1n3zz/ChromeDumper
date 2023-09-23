@@ -1,10 +1,26 @@
-# Disclaimer and Usage Notice
+# Table of Contents
 
-Before using the "Chrome Dumper" tool, please be aware that the tool is provided for legal and ethical purposes, such as red team engagements, penetration testing assessments, or other authorized security testing activities. Users are solely responsible for their actions and must comply with all applicable laws and ethical guidelines when utilizing the tool. It is essential to obtain explicit permission from the owner of any target system before running the tool. The creators and contributors of "Chrome Dumper" disclaim any liability for the misuse of the tool. By using the "Chrome Dumper" tool, you acknowledge and accept that you are solely responsible for any consequences resulting from its use. Always remember to prioritize responsible and ethical practices to maintain the security and integrity of all systems and data involved.
+* [Technical Details](#technical-Details)
+    * [Chrome's Timestamp](#Chromes-Timestamp)
+    * [Data Encryption](#data-encryption)
+    * [Data Decryption](#data-decryption)
+    * [Passwords Investigation](#passwords-investigation)
+    * [Downloads Investigation](#downloads-investigation)
+    * [History Investigation](#history-investigation)
+    * [Cookies Investigation](#cookies-investigation)
+    * [Main Function](#main-function)
+* [Instalation](#instalation)
+    * [Dependency Requirements](#dependency-requirements)
+* [Usage](#usage)
+    * [Module Selection](#module-selection)
+    * [Output Format](#output-format)
+    * [Chrome Profile Selection](#chrome-profile-selection)
+    * [Chrome User Data Path](#chrome-user-data-path)
+* [Disclaimer-and Usage Notice](#disclaimer-and-usage-notice)
 
-## Technical details
+## Technical Details
 
-#### Chrome's timestamp
+#### Chrome's Timestamp
 
 The `get_chrome_datetime` function plays a crucial role in the Chrome Dumper script by converting Chrome's unique timestamp format to a standard `datetime` object in Python. Chrome stores timestamps as the number of microseconds since January 1, 1601. This function takes the Chrome timestamp as input, performs the necessary calculations, and returns a `datetime` object representing the corresponding date and time in the Gregorian calendar.
 
@@ -237,7 +253,7 @@ def main():
 
 By utilizing the `main` function with the appropriate command-line arguments, red teamers can easily extract specific data from the Chrome browser in their preferred format. The function streamlines the extraction process, making it efficient and flexible for various red team engagements, allowing valuable information to be obtained and analyzed for security assessment purposes.
 
-## Instalation
+## Installation
 
 The ChromeDumper.py can be download by cloning the repo.
 
@@ -301,6 +317,11 @@ Example:
 ```
 C:\>python3 ChromeDumper.py -m cookies --user-data "C:\\Custom\\Chrome\\User Data" -o json
 ```
+
+## Disclaimer and Usage Notice
+
+>Before using the "Chrome Dumper" tool, please be aware that the tool is provided for legal and ethical purposes, such as red team engagements, penetration testing assessments, or other authorized security testing activities. Users are solely responsible for their actions and must comply with all applicable laws and ethical guidelines when utilizing the tool. It is essential to obtain explicit permission from the owner of any target system before running the tool. The creators and contributors of "Chrome Dumper" disclaim any liability for the misuse of the tool. By using the "Chrome Dumper" tool, you acknowledge and accept that you are solely responsible for any consequences resulting from its use. Always remember to prioritize responsible and ethical practices to maintain the security and integrity of all systems and data involved.
+
 
 Created by [M4rt1n3zz](https://twitter.com/8U154R14N)
 
