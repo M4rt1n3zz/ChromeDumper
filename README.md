@@ -9,7 +9,7 @@
     * [History Investigation](#history-investigation)
     * [Cookies Investigation](#cookies-investigation)
     * [Main Function](#main-function)
-* [Instalation](#instalation)
+* [Installation](#installation)
     * [Dependency Requirements](#dependency-requirements)
 * [Usage](#usage)
     * [Module Selection](#module-selection)
