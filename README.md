@@ -16,7 +16,7 @@
     * [Output Format](#output-format)
     * [Chrome Profile Selection](#chrome-profile-selection)
     * [Chrome User Data Path](#chrome-user-data-path)
-* [Disclaimer-and Usage Notice](#disclaimer-and-usage-notice)
+* [Disclaimer and Usage Notice](#disclaimer-and-usage-notice)
 
 ## Technical Details
 
